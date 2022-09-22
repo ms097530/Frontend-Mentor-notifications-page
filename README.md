@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [on Frontend Mentor](https://www.frontendmentor.io/solutions/notifications-page-using-vanilla-html-css-and-js-OtkIOI_x_G)
+- Live Site URL: [https://ms097530.github.io/Frontend-Mentor-notifications-page/](https://ms097530.github.io/Frontend-Mentor-notifications-page/)
 
 ## My process
 I broke this page down in the following ways:
