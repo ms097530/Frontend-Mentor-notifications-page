@@ -318,13 +318,13 @@ main
 }
 
 .avatar,
-.notification>section>a>img
+.notification>div>a>img
 {
     height: 32px;
     width: 32px;
 }
 
-.notification>section.picture-container
+.notification>div.picture-container
 {
     margin-left: auto;
 }
