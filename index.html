@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+
+
+  <title>Frontend Mentor | Notifications page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+  <script src="scripts.js" defer></script>
+</head>
+
+<body>
+
+  <main>
+    <section class="notifications">
+      <div class="notifications-heading">
+        <h5 id="notifications-header">Notifications <span id="notifications-counter">0</span></h5>
+        <button id="mark-all-read">Mark all as read</button>
+      </div>
+      <div class="notification active">
+        <section>
+          <a href="#"><img class="avatar" src="assets/images/avatar-mark-webber.webp" /></a>
+        </section>
+        <section>
+          <p><a href="#">Mark Webber</a> reacted to your recent post <a href="#">My first tournament today!</a></p>
+          <div class="time-since">1m ago</div>
+        </section>
+      </div>
+      <div class="notification active">
+        <section>
+          <a href="#"><img class="avatar" src="assets/images/avatar-angela-gray.webp" /></a>
+        </section>
+        <section>
+          <p><a href="#">Angela Gray</a> followed you</p>
+          <div class="time-since">5m ago</div>
+        </section>
+      </div>
+      <div class="notification active">
+        <section>
+          <a href="#"><img class="avatar" src="assets/images/avatar-jacob-thompson.webp" /></a>
+        </section>
+        <section>
+          <p><a href="#">Jacob Thompson</a> has joined your group <a href="#">Chess Club</a></p>
+          <div class="time-since">1 day ago</div>
+        </section>
+      </div>
+      <div class="notification">
+        <section>
+          <a href="#"><img class="avatar" src="assets/images/avatar-rizky-hasanuddin.webp" /></a>
+        </section>
+        <section>
+          <p><a href="#">Rizky Hasanuddin</a> sent you a private message</p>
+          <div class="time-since">5 days ago</div>
+          <a href="#">
+            <summary class="message">
+              Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and
+              I'm already having lots of fun and improving my game.
+            </summary>
+          </a>
+        </section>
+
+      </div>
+      <div class="notification">
+        <section>
+          <a href="#"><img class="avatar" src="assets/images/avatar-kimberly-smith.webp" /></a>
+        </section>
+        <section>
+          <p><a href="#">Kimberly Smith</a> commented on your picture</p>
+          <div class="time-since">1 week ago</div>
+        </section>
+        <section class="picture-container"><a href="#"><img src="/assets/images/image-chess.webp" /></a></section>
+      </div>
+      <div class="notification">
+        <section>
+          <a href="#"><img class="avatar" src="assets/images/avatar-nathan-peterson.webp" /></a>
+        </section>
+        <section>
+          <p>
+            <a href="#">Nathan Peterson</a> reacted to your recent post <a href="#">5 end-game strategies to increase
+              your
+              win rate</a>
+          </p>
+          <div class="time-since">2 weeks ago</div>
+        </section>
+      </div>
+      <div class="notification">
+        <section>
+          <a href="#"><img class="avatar" src="assets/images/avatar-anna-kim.webp" /></a>
+        </section>
+        <section>
+          <p><a href="#">Anna Kim</a> left the group <a href="#">Chess Club</a></p>
+          <div class="time-since">2 weeks ago</div>
+        </section>
+      </div>
+    </section>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Michael Schultz</a>.
+    </div>
+  </main>
+</body>
+
+</html>
