@@ -193,7 +193,7 @@ body *
     box-sizing: border-box;
     font-family: var(--main-font);
     font-size: var(--base-font-size);
-    color: var(--grayish-blue);
+    color: var(--dark-grayish-blue);
 }
 
 h5,
@@ -308,8 +308,7 @@ main
 
 .time-since
 {
-    /* color: var(--grayish-blue); */
-    opacity: 0.7;
+    color: var(--grayish-blue);
     line-height: 24px;
 }
 
